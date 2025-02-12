@@ -146,6 +146,7 @@
                     <option value="">Selecione uma opção</option>
                     <option value="Elogios">Elogios</option>
                     <option value="Sugestões">Sugestões</option>
+                    <option value="Reclamações">Reclamações</option>
                     <option value="Denúncias">Denúncias</option>
                     <option value="Outros">Outros</option>
                 </select>
@@ -161,17 +162,18 @@
                     <option value="Organização">Organização</option>
                     <option value="Equipe">Equipe</option>
                     <option value="Infraestrutura">Infraestrutura</option>
+                    <option value="Outros">Outros</option>
                 </select>
             </div>
 
             <!-- Seção Texto -->
             <div class="form-section" id="sectionText">
-                <label for="feedbackText">Descreva aqui o seu feedback:</label>
+                <label for="feedbackText">Escreva aqui o seu feedback:</label>
                 <textarea id="feedbackText" name="text" rows="5" required></textarea>
                 
                 <div class="button-group">
                     <button type="submit" class="submit-btn">Enviar Feedback</button>
-                    <button type="button" class="cancel-btn" onclick="resetForm()">Cancelar</button>
+                    <button type="button" class="cancel-btn" onclick="resetForm()">Limpar</button>
                 </div>
             </div>
         </form>
